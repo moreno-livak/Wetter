@@ -125,3 +125,75 @@ header{
     }
   }
 }
+
+@media only screen and (max-width: 450px){
+  header{
+    h1{
+      font-size: 2.6em;
+    }
+    form{
+      width: 19.8em;
+      input{
+        font-size: .9em;
+        width: 20em;
+      }
+      .infoText{
+        font-size: 1em;
+      }
+      .decoration{
+        height: 1em;
+        margin: -2.65em 0 3em 0;
+      }
+    }
+  }
+  .card{
+    width: 20em;
+    h5{
+      font-size: 1.3em;
+    }
+    .big{
+      span{
+        font-size: 4.5em;
+      }
+    }
+    .condition{
+      font-size: 1em;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px){
+  header{
+    h1{
+      font-size: 2.5em;
+    }
+    form{
+      width: 17.1em;
+      input{
+        font-size: .9em;
+        width: 17em;
+      }
+      .infoText{
+        font-size: .9em;
+      }
+      .decoration{
+        height: 1em;
+        margin: -2.65em 0 3em 0;
+      }
+    }
+  }
+  .card{
+    width: 17em;
+    h5{
+      font-size: 1.2em;
+    }
+    .big{
+      span{
+        font-size: 4.3em;
+      }
+    }
+    .condition{
+      font-size: .9em;
+    }
+  }
+}
