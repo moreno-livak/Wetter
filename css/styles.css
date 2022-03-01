@@ -126,4 +126,68 @@ header form .decoration {
     font-size: 1em;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  header h1 {
+    font-size: 2.6em;
+  }
+  header form {
+    width: 19.8em;
+  }
+  header form input {
+    font-size: .9em;
+    width: 20em;
+  }
+  header form .infoText {
+    font-size: 1em;
+  }
+  header form .decoration {
+    height: 1em;
+    margin: -2.65em 0 3em 0;
+  }
+  .card {
+    width: 20em;
+  }
+  .card h5 {
+    font-size: 1.3em;
+  }
+  .card .big span {
+    font-size: 4.5em;
+  }
+  .card .condition {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+  header form {
+    width: 17.1em;
+  }
+  header form input {
+    font-size: .9em;
+    width: 17em;
+  }
+  header form .infoText {
+    font-size: .9em;
+  }
+  header form .decoration {
+    height: 1em;
+    margin: -2.65em 0 3em 0;
+  }
+  .card {
+    width: 17em;
+  }
+  .card h5 {
+    font-size: 1.2em;
+  }
+  .card .big span {
+    font-size: 4.3em;
+  }
+  .card .condition {
+    font-size: .9em;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
