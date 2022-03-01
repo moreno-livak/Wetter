@@ -28,9 +28,10 @@ const updateUI = (data) => {
 };
 
 
-const errorUI = () => {
-  card.innerHTML = `<h5>Stadt Name nicht erkannt oder die 50 Wetter Anfragen für heute erfüllt.</h5>`;
-
+const errorUI = (err) => {
+  card.innerHTML = `<h5>Stadtname nicht erkannt oder die 50 Wetter Anfragen für heute schon genutzt.</h5>`;
+  
+  console.log(err);
   card.style.display = 'block';
   hmm.style.display = 'none';
 };
