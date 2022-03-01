@@ -29,7 +29,7 @@ const updateUI = (data) => {
 
 
 const errorUI = () => {
-  card.innerHTML = `<h5>50 Anfragen heute, komm morgen wieder.</h5>`;
+  card.innerHTML = `<h5>Stadt Name nicht erkannt oder die 50 Wetter Anfragen für heute erfüllt.</h5>`;
 
   card.style.display = 'block';
   hmm.style.display = 'none';
