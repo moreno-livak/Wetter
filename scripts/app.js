@@ -28,6 +28,14 @@ const updateUI = (data) => {
 };
 
 
+const errorUI = () => {
+  card.innerHTML = `<h5>50 Anfragen heute, komm morgen wieder.</h5>`;
+
+  card.style.display = 'block';
+  hmm.style.display = 'none';
+};
+
+
 
 const updateCity = async (city) => {
 
@@ -47,5 +55,5 @@ cityForm.addEventListener('submit', e => {
   // update the ui with new city
   updateCity(city)
     .then(data => updateUI(data))
-    .catch(err => console.log(err));
+    .catch(err => errorUI());
 });
